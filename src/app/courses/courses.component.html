@@ -1,0 +1,29 @@
+
+<label class="fw-bold">Available Courses</label>
+<div>
+    <mat-form-field appearance="fill"> 
+        <mat-label>Choose a technology</mat-label> 
+        <mat-select> 
+          <mat-option value="html"> HTML </mat-option> 
+          <mat-option value="css" disabled>CSS (disabled)</mat-option> 
+          <mat-option value="js">JAVASCRIPT</mat-option> 
+        </mat-select> 
+      </mat-form-field>
+    
+    <div class="container-fluid">
+        <div class="row">
+            
+            <div class="col-6" *ngFor = 'let lst of appList'>
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            <li>{{lst.ID}}</li>
+                            <img [src] = 'lst.url'>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

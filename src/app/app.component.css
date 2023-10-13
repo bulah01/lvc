@@ -1,0 +1,47 @@
+
+.carousel-inner > .item > img {
+    width: 80%;
+}
+
+header {
+  padding-bottom: 0px
+}
+
+.mat-tab-link {
+  font-size: 14px;
+  color: antiquewhite;
+}
+
+nav {
+  background-color: lightslategrey;
+}
+/* 
+mat-nav-list.list-horizontal {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  .mat-list-item {
+    display: inline-block;
+    height: auto;
+    width: auto;
+  }
+ } */
+
+section {
+  padding: 15px;
+}
+
+footer {
+  background-color: darkslategrey;
+  text-align: center;
+  position: fixed;
+  bottom: 0%;
+  padding: 5px;
+  width: 100%;
+  border-top: 1px solid darkgreen;
+}
+
+footer p{
+  color: antiquewhite;
+  font-size: 11px;
+}
